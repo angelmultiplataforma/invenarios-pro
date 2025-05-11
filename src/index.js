@@ -4,9 +4,12 @@
  */
 
 export * from './App'
+export * from './components/templates/HomeTemplate'
 export * from './context/AuthContext'
 export * from './index'
 export * from './main'
+export * from './pages/Home'
+export * from './routers/routes'
 export * from './styles/breackpoints'
 export * from './styles/themes'
 export * from './styles/variables'
