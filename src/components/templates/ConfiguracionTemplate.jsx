@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import fondocuadros from "../../assets/fondocuadros.svg";
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { DataModulosConfiguracion } from "../../utils/dataEstatica";
 export function ConfiguracionTemplate() {
   console.log("DataModulosConfiguracion en render:", DataModulosConfiguracion);
@@ -134,7 +134,7 @@ const Container = styled.div`
     flex-grow: 1;
     inset: 1px;
     padding: 10px;
-    position: absolute;
+    position: relative;
     z-index: 2;
   }
 
