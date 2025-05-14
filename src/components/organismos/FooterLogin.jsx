@@ -6,17 +6,17 @@ export function FooterLogin() {
       <section className="lock">
         <GiPadlock />
         <span>
-          Esta es una página segura de codigo369. Si tienes dudas sobre la
+          Esta es una página segura de Angel Pérez y Enrique García. Si tienes dudas sobre la
           autenticidad de la web, comunícate con
-          <br /> nosotros al 311-9898 o a través de nuestros medios digitales.
+          <br /> nosotros al 682 605 100 o a través de nuestros medios digitales.
         </span>
       </section>
       <section className="derechos">
-        <span>StockPRO S.A - RUC: 20100047218</span>
+        <span>StockPRO S.A</span>
         <div className="separador"></div>
         <span>Todos los derechos reservados</span>
         <div className="separador"></div>
-        <span>© 2023 codigo369.com</span>
+        <span>© 2025 AngelyEnrique.com</span>
       </section>
     </Container>
   );
