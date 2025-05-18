@@ -33,4 +33,5 @@ export function Kardex() {
 
   return <KardexTemplate data={datamarca}/>;
   //cambios
+  //recapitulemos
 }
