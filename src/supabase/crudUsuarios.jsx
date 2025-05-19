@@ -1,3 +1,5 @@
+
+//
 // Módulo para gestionar usuarios en Supabase: permite insertar nuevos usuarios y obtener los datos del usuario autenticado actual.
 // Utiliza SweetAlert2 para mostrar alertas en caso de errores al insertar.
 
