@@ -1,12 +1,13 @@
 import { useQuery } from "@tanstack/react-query";
 import {
+  KardexTemplate,
   MarcaTemplate,
   SpinnerLoader,
   useEmpresaStore,
   useMarcaStore,
 } from "../index";
 
-export function Marca() {
+export function Kardex() {
   const { mostrarMarca, datamarca, buscarMarca, buscador } = useMarcaStore();
   const { dataempresa } = useEmpresaStore();
   const { isLoading, error } = useQuery({
@@ -30,5 +31,7 @@ export function Marca() {
     return <span>Error...</span>;
   }
 
-  return <MarcaTemplate data={datamarca}/>;
+  return <KardexTemplate data={datamarca}/>;
+  //cambios
+  //recapitulemos
 }

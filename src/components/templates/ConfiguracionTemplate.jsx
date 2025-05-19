@@ -16,7 +16,7 @@ export function ConfiguracionTemplate() {
                 </div>
                 <div className="card-info-wrapper">
                   <div className="card-info">
-                    <i className="fa-duotone fa-unicorn"></i>
+                    <i className="fa-solid fa-star"></i> {/* Icono de estrella sólido */}
                     <div className="card-info-title">
                       <h3>{item.title}</h3>
                       <h4>{item.subtitle}</h4>
@@ -54,12 +54,14 @@ const Container = styled.div`
     border-radius: 10px;
   }
   #cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    max-width: 916px;
-    width: calc(100% - 20px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1024px;
+    width: 100%;
+    padding: 1rem;
   }
+
 
   #cards:hover > .card::after {
     opacity: 1;
@@ -73,7 +75,6 @@ const Container = styled.div`
     height: 260px;
     flex-direction: column;
     position: relative;
-    width: 300px;
     transition: 0.3s;
     border: 0.5px solid transparent;
     &:hover {

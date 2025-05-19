@@ -8,7 +8,7 @@ export function BannerEmpresa() {
     <Container>
       <div className="content-wrapper-context">
         <span className="titulo">
-          {v.iconoempresa}
+          {<v.iconoempresa />}
           {dataempresa.empresa?.nombre}
         </span>
         <div className="content-text">
