@@ -35,4 +35,5 @@ export function Kardex() {
   //cambios
   //recapitulemos
   //holamaricarmen
+  //final
 }
